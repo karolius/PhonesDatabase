@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/phoneBrandTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"/>
+        <!--android:text="@string/brandTVLabel" />- TODO wywal koment-->
+
+        <TextView
+            android:id="@+id/phoneModelTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"/>
+        <!--android:text="@string/modelTVLabel" />-->
+    </TableRow>
+</TableLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" >-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/icon"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="24dp"-->
+        <!--android:layout_marginLeft="4dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:src="@drawable/reminder" >-->
+    <!--</ImageView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/label"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="6dp"-->
+        <!--android:lines="1"-->
+        <!--android:text="@+id/TextView01"-->
+        <!--android:textSize="24dp"-->
+        <!--&gt;-->
+    <!--</TextView>-->
+
+<!--</LinearLayout>-->
