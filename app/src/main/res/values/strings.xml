@@ -3,8 +3,6 @@
     <string name="empty_phone_list">Currently there are no phones in the database</string>
     <string name="menu_add">Add Phone</string>
     <string name="menu_delete">Delete Phone</string>
-
-
     <string name="app_name">Phones Database</string>
     <string name="brandTVLabel">Brand</string>
     <string name="modelTVLabel">Model</string>
@@ -14,7 +12,7 @@
     <string name="cancelButtonLabel">Cancel</string>
     <string name="saveButtonLabel">Save</string>
     <string name="ask_for_filling_the_fields">Please fill the fields</string>
-    <string name="add_item_icon">Add Item</string>
+    <string name="add_item_icon">Add</string>
     <string name="appbar_scrolling_view">Testtttt</string>
     <string name="delete_menu_label">Delete items</string>
     <string name="fieldError">Please fill fields.</string>

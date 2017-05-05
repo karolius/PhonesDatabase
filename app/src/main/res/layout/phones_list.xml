@@ -2,7 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:layout_marginTop="4pt"
+    android:layout_marginBottom="4pt"
+    android:layout_marginLeft="8pt"
+    android:layout_marginRight="8pt">
 
     <ListView
         android:id="@android:id/list"
@@ -15,5 +19,4 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/empty_phone_list" />
-
 </LinearLayout>

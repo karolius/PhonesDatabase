@@ -94,8 +94,8 @@ public class PhonesOverviewActivity extends ListActivity implements
     protected void onListItemClick(ListView lV, View v, int position, long id) {
         super.onListItemClick(lV, v, position, id);
         Intent detailView = new Intent(this, PhonesDetailActivity.class);
-        Uri todoUri = Uri.parse(PhonesContentProvider.CONTENT_URI + "/" + id);
-        detailView.putExtra(PhonesContentProvider.CONTENT_ITEM_TYPE, todoUri);
+        Uri phonesDbUri = Uri.parse(PhonesContentProvider.CONTENT_URI + "/" + id);
+        detailView.putExtra(PhonesContentProvider.CONTENT_ITEM_TYPE, phonesDbUri);
         startActivity(detailView);
     }
 
