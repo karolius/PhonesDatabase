@@ -60,14 +60,12 @@ public class PhonesDetailActivity extends Activity {
         // Obsluga przycisku zapisz.
         saveButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-//                if (TextUtils.isEmpty(mTitleText.getText().toString())) { // #TODO walidacja
-//                    makeToast();
-//                } else {
-//                    setResult(RESULT_OK);
-//                    finish();
-//                }
-                setResult(RESULT_OK);
-                finish();
+                if (emptyFields()) { // #TODO walidacja
+                    makeToast();
+                } else {
+                    setResult(RESULT_OK);
+                    finish();
+                }
             }
 
         });
@@ -169,5 +167,13 @@ public class PhonesDetailActivity extends Activity {
         } else {
             makeToast();
         }
+    }
+
+
+    private boolean emptyFields() {
+        return (brandText.getText().toString().equals("")
+                || modelText.getText().toString().equals("")
+                || systemRevText.getText().toString().equals("")
+                || websiteText.getText().toString().equals(""));
     }
 }
